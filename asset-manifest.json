@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/anuj1o0/pathfinding_visualizer/static/css/main.87f201be.css",
+    "main.js": "/anuj1o0/pathfinding_visualizer/static/js/main.de434cb6.js",
+    "static/js/787.ef103b65.chunk.js": "/anuj1o0/pathfinding_visualizer/static/js/787.ef103b65.chunk.js",
+    "static/media/dotimg.png": "/anuj1o0/pathfinding_visualizer/static/media/dotimg.8dcc3efec036bbc0467c.png",
+    "index.html": "/anuj1o0/pathfinding_visualizer/index.html",
+    "main.87f201be.css.map": "/anuj1o0/pathfinding_visualizer/static/css/main.87f201be.css.map",
+    "main.de434cb6.js.map": "/anuj1o0/pathfinding_visualizer/static/js/main.de434cb6.js.map",
+    "787.ef103b65.chunk.js.map": "/anuj1o0/pathfinding_visualizer/static/js/787.ef103b65.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87f201be.css",
+    "static/js/main.de434cb6.js"
+  ]
+}
