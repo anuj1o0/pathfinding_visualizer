@@ -1,0 +1,58 @@
+.grid {
+    margin: 10px 0 0;
+  }
+
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 1px;
+    text-align: start;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+  }
+
+
+
+  .button-container {
+    display: flex; 
+   justify-content: flex-start;
+    margin-bottom: 10px;
+    margin-top: 10px; 
+    margin-left: 150px;/* Add some margin to separate the button from the grid */
+  }
+  
+  .visualize {
+    background-color: rgba(0, 190, 218, 0.75); /* Green background */
+    color: white;
+    padding: 7px;
+    text-align: center;
+    /* text-decoration: none; */
+    /* display: inline-block; */
+    font-size: 16px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 10px; /* Add some margin to the right of the button */
+    cursor: pointer;
+    border-radius: 4px; /* Rounded corners */
+  }
+
+  .legend {
+    display: flex;
+    align-items: center;
+    margin-left: 10px; /* Adjust margin as needed */
+  }
+  
+  .start-node,
+  .finish-node {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Adjust margin as needed */
+  }
+  
+  .start-node img,
+  .finish-node img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px; /* Adjust margin as needed */
+  }

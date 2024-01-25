@@ -1,0 +1,79 @@
+ .node {
+    width: 25px;
+    height: 25px;
+    outline: 1px solid rgb(175, 216, 248);
+    display: inline-block;
+  }
+  
+  .node-start {
+    background: url('F:\website\pathfinding_visualizer\src\PathfindingVisualizer\Node\tritoright.png') center/contain no-repeat;
+  }
+  
+  .node-finish {
+    background: url('F:\website\pathfinding_visualizer\src\PathfindingVisualizer\Node\dotimg.png') center/contain no-repeat;
+  }
+  
+  .node-visited {
+    animation-name: visitedAnimation;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+  }
+  
+  @keyframes visitedAnimation {
+    0% {
+      transform: scale(0.3);
+      background-color: #27374D;
+      border-radius: 100%;
+    }
+  
+    50% {
+      background-color: #526D82;
+    }
+  
+    75% {
+      transform: scale(1.2);
+      background-color: #9DB2BF;
+    }
+  
+    100% {
+      transform: scale(1);
+      background-color: #DDE6ED;
+    }
+  }
+  
+  .node-wall {
+    background-color: rgb(12, 53, 71);
+  }
+  
+  .node-shortest-path {
+    animation-name: shortestPath;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+  }
+  
+  @keyframes shortestPath {
+    0% {
+      transform: scale(0.6);
+      background-color: #088395;
+    }
+  
+    50% {
+      transform: scale(1.2);
+      background-color: #35A29F;
+    }
+  
+    100% {
+      transform: scale(1);
+      background-color: #F2F7A1;
+    }
+  } 
