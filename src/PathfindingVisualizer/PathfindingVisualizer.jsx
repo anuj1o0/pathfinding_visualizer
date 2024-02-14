@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import Node from './Node/Node';
 import {dijkstra, getNodesInShortestPathOrder} from '../algorithms/dijkstra';
-import right from "./tritoright.png"
+import right from './PathfindingVisualizer/tritoright.png';
+
 import dot from "./dotimg.png"
 
 import './PathfindingVisualizer.css';
